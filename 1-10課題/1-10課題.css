@@ -70,3 +70,44 @@ footer {
   background-color: #aaaaaa;
 }
 
+@media screen and (max-width:768px){
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .box1 {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .img1 {
+    height: 150px;
+  }
+
+  .img2 {
+    height: 150px;
+  }
+
+  .img3 {
+    height: 150px;
+  }
+
+  .box1:first-child {
+    margin-top: 0;
+  }
+
+  .box1:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+}
